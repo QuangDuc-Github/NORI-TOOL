@@ -38,3 +38,4 @@ for X in banner:
  sys.stdout.write(X)
  sys.stdout.flush()
  sleep(0.00125)
+banner()

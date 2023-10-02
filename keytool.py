@@ -56,7 +56,7 @@ banner = f'''{xduong}███╗  ██╗ █████╗ █████�
 {info}{luc} Hôm Nay Là Ngày :{trang} {today}
 {info}{luc} Bạn Vào Tool Lúc:{trang} {time}
 {info}{luc} Link Lấy Key:{trang}
-{info}{xnhac} Key Free Được Share Trong Box Zalo AE Vào Lấy Nhé 
+{info}{xnhac} Key Được Share Free Trong Box Zalo AE Vào Lấy Nhé 
 {red}────────────────────────────────────────────────────────────────────────\n'''
 for X in banner:
  sys.stdout.write(X)

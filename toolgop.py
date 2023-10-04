@@ -107,13 +107,13 @@ chon = input(f'{hd}{luc}Nhập Lựa Chọn: {vang}')
 
 #TDS FB
 if chon == '1':
- exec(requests.get('https://run.mocky.io/v3/390834ae-8650-48eb-9380-d618d1be2b69').text)
+ exec(requests.get('https://run.mocky.io/v3/d6779d25-6c38-46f7-ab4e-ef315510804e').text)
 #TDS PRO5
 if chon == '2':
- exec(requests.get('https://run.mocky.io/v3/225b154d-3640-463b-83a3-c983dc4b9359').text)
+ exec(requests.get('https://run.mocky.io/v3/d9703b27-b0aa-4a70-82fc-e88be6013c8d').text)
 #TDS TIKTOK
 if chon == '3':
- exec(requests.get('https://run.mocky.io/v3/3671ea55-ffad-42b7-99a5-a9c22572ef5b').text)
+ exec(requests.get('https://run.mocky.io/v3/207b5835-e1f8-4819-8304-e05305ffa328').text)
 #TTC FB
 if chon == '4':
  exec(requests.get('').text)
@@ -131,10 +131,10 @@ if chon == '8':
  exec(requests.get('').text)
 #REG PRO5
 if chon == '9':
- exec(requests.get('https://run.mocky.io/v3/73a98ec9-cff9-4ab7-837a-b56a6dc074e3').text)
+ exec(requests.get('https://run.mocky.io/v3/b33ca81c-857f-40c3-b01e-1d428421ebd4').text)
 #BUFF VIEW STORY PRO5
 if chon == '10':
- exec(requests.get('https://run.mocky.io/v3/34e979b6-83a6-467e-af27-301ce6206ee4').text)
+ exec(requests.get('https://run.mocky.io/v3/02e57ffa-bdd0-488d-9924-f726210a4181').text)
 #BUFF CẢM XÚC PRO5
 if chon == '11':
  exec(requests.get('').text)
@@ -143,13 +143,13 @@ if chon == '12':
  exec(requests.get('').text)
 #BUFF FL PRO5
 if chon == '13':
- exec(requests.get('https://run.mocky.io/v3/f7f1ea81-c3bd-41a9-84ad-18db3e98dd04').text)
+ exec(requests.get('https://run.mocky.io/v3/fbcc0689-30fb-45b5-9c12-210effae8e5d').text)
 #BUFF MEM PRO5
 if chon == '14':
- exec(requests.get('https://run.mocky.io/v3/87b7f207-1057-4abc-8a88-b1ab4ce7b9ba').text)
+ exec(requests.get('https://run.mocky.io/v3/a77b9ef9-5d02-42f6-81ed-7f129b263ae8').text)
 #CHANGE PRO5
 if chon == '15':
- exec(requests.get('https://run.mocky.io/v3/b6ebb9c5-dd27-4425-ae8a-c75e0d67c64b').text)
+ exec(requests.get('https://run.mocky.io/v3/02515bfa-a765-4b74-afce-f5abd232655d').text)
 #BUFF CMT
 if chon == '16':
  exec(requests.get('').text)

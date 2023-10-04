@@ -33,7 +33,7 @@ info = f'{red}[{trang}+{red}]'
 
 #NORI-TOOL
 #Nori Tool
-today = datetime.now().strftime('%d/%m/%Y')
+day = (datetime.now().strftime('%d/%m/%Y'))
 time = (datetime.now().strftime('%H:%M:%S'))
 ip = requests.get('https://checkip.amazonaws.com').text.strip()
 info = f'{red}[{trang}+{red}]'
@@ -56,9 +56,9 @@ def banner():
 {red}────────────────────────────────────────────────────────────────────────
 {info}{luc} Chúc Bạn Dùng Tool Vui Vẻ
 {info}{luc} IP Hiện Tại Của Bạn Là:{trang} {ip}
-{info}{luc} Hôm Nay Là Ngày:{trang} {today}
+{info}{luc} Hôm Nay Là Ngày :{trang} {day}
 {info}{luc} Bạn Vào Tool Lúc:{trang} {time}
-{red}────────────────────────────────────────────────────────────────────────'''
+{red}────────────────────────────────────────────────────────────────────────\n'''
  for X in banner:
   sys.stdout.write(X)
   sys.stdout.flush()
@@ -105,38 +105,54 @@ tool = f"""
 print(tool)
 chon = input("\u001b[31;1m[\033[1;37m+\u001b[31;1m] \u001b[32;1mNhập Lựa Chọn :\033[1;33m ")
 
-#TDS
+#TDS FB
 if chon == '1':
- exec(requests.get('https://run.mocky.io/v3/cd6e61a8-5525-493c-8d31-a423b04b3746').text)
+ exec(requests.get('https://run.mocky.io/v3/5d83f22d-abef-4d51-9db7-951531745b81').text)
+#TDS PRO5
 if chon == '2':
- exec(requests.get('https://run.mocky.io/v3/4850b017-4679-4fd5-9346-2972f222c051').text)
+ exec(requests.get('https://run.mocky.io/v3/43800bd6-f7f5-40ea-a8c5-8620735f398a').text)
+#TDS TIKTOK
 if chon == '3':
- exec(requests.get('https://run.mocky.io/v3/6839c92f-20c4-42ea-9d18-66b023ebf029').text)
+ exec(requests.get('https://run.mocky.io/v3/fc9ab6b0-7997-45cd-a96b-a61698bce071').text)
+#TTC FB
 if chon == '4':
  exec(requests.get('').text)
+#TTC PRO5
 if chon == '5':
  exec(requests.get('').text)
+#TTC TIKTOK
 if chon == '6':
  exec(requests.get('').text)
+#BUFF VIEW TIKTOK
 if chon == '7':
  exec(requests.get('').text)
+#BUFF TIM TIKTOK
 if chon == '8':
  exec(requests.get('').text)
+#REG PRO5
 if chon == '9':
- exec(requests.get('https://run.mocky.io/v3/e5b446ee-c153-4f28-8395-d02ab75352d2').text)
+ exec(requests.get('https://run.mocky.io/v3/73a98ec9-cff9-4ab7-837a-b56a6dc074e3').text)
+#BUFF VIEW STORY PRO5
 if chon == '10':
- exec(requests.get('https://run.mocky.io/v3/cd18aa6a-28f6-444f-bf60-8f45765e4682').text)
+ exec(requests.get('https://run.mocky.io/v3/34e979b6-83a6-467e-af27-301ce6206ee4').text)
+#BUFF CẢM XÚC PRO5
 if chon == '11':
  exec(requests.get('').text)
+#BUFF SHARE PRO5
 if chon == '12':
  exec(requests.get('').text)
+#BUFF FL PRO5
 if chon == '13':
- exec(requests.get('https://run.mocky.io/v3/e738c2f9-cdbd-492f-9a99-9d85778ea327').text)
+ exec(requests.get('https://run.mocky.io/v3/f7f1ea81-c3bd-41a9-84ad-18db3e98dd04').text)
+#BUFF MEM PRO5
 if chon == '14':
- exec(requests.get('https://run.mocky.io/v3/8d9febc0-2a56-4a9e-a9e0-6c1bd4020f4c').text)
+ exec(requests.get('https://run.mocky.io/v3/87b7f207-1057-4abc-8a88-b1ab4ce7b9ba').text)
+#CHANGE PRO5
 if chon == '15':
- exec(requests.get('https://run.mocky.io/v3/fce051d3-6bd2-4956-842d-aa15bc18dd8c').text)
+ exec(requests.get('https://run.mocky.io/v3/b6ebb9c5-dd27-4425-ae8a-c75e0d67c64b').text)
+#BUFF CMT
 if chon == '16':
  exec(requests.get('').text)
+#KÍCH PRO5
 if chon == '17':
  exec(requests.get('').text)

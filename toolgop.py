@@ -58,7 +58,7 @@ def banner():
 {info}{luc} IP Hiện Tại Của Bạn Là:{trang} {ip}
 {info}{luc} Hôm Nay Là Ngày :{trang} {day}
 {info}{luc} Bạn Vào Tool Lúc:{trang} {time}
-{red}────────────────────────────────────────────────────────────────────────\n'''
+{red}────────────────────────────────────────────────────────────────────────'''
  for X in banner:
   sys.stdout.write(X)
   sys.stdout.flush()

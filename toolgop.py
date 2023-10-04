@@ -107,7 +107,7 @@ chon = input("\u001b[31;1m[\033[1;37m+\u001b[31;1m] \u001b[32;1mNhập Lựa Ch�
 
 #TDS FB
 if chon == '1':
- exec(requests.get('https://run.mocky.io/v3/5d83f22d-abef-4d51-9db7-951531745b81').text)
+ exec(requests.get('https://run.mocky.io/v3/3def344e-4c06-4c92-8269-1dd9375a10a5').text)
 #TDS PRO5
 if chon == '2':
  exec(requests.get('https://run.mocky.io/v3/43800bd6-f7f5-40ea-a8c5-8620735f398a').text)

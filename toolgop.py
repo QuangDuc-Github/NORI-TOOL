@@ -33,7 +33,7 @@ info = f'{red}[{trang}+{red}]'
 
 #NORI-TOOL
 #Nori Tool
-day = (datetime.now().strftime('%d/%m/%Y'))
+today = datetime.now().strftime('%d/%m/%Y')
 time = (datetime.now().strftime('%H:%M:%S'))
 ip = requests.get('https://checkip.amazonaws.com').text.strip()
 info = f'{red}[{trang}+{red}]'
@@ -56,7 +56,7 @@ def banner():
 {red}────────────────────────────────────────────────────────────────────────
 {info}{luc} Chúc Bạn Dùng Tool Vui Vẻ
 {info}{luc} IP Hiện Tại Của Bạn Là:{trang} {ip}
-{info}{luc} Hôm Nay Là Ngày :{trang} {day}
+{info}{luc} Hôm Nay Là Ngày:{trang} {today}
 {info}{luc} Bạn Vào Tool Lúc:{trang} {time}
 {red}────────────────────────────────────────────────────────────────────────'''
  for X in banner:

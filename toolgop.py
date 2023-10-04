@@ -65,55 +65,55 @@ def banner():
   sleep(0.00125)
 banner()
 tool = f"""
- {do}╔═════════════════════╗
- {do}║  {vang}Tool Trao Đổi Sub  {do}║
- {do}╚═════════════════════╝
- {hd}Nhập Số \033[1;31m[\033[1;33m1\033[1;31m] \033[1;32mTool TDS FB
- {hd}Nhập Số \033[1;31m[\033[1;33m2\033[1;31m] \033[1;32mTool TDS Pro5
- {hd}Nhập Số \033[1;31m[\033[1;33m3\033[1;31m] \033[1;32mTool TDS Tiktok
- {red}────────────────────────────────────────────────────────────────────────
- {do}╔══════════════════════╗
- {do}║ {vang}Tool Tương Tác Chéo  {do}║
- {do}╚══════════════════════╝
- {hd}Nhập Số \033[1;31m[\033[1;33m4\033[1;31m] \033[1;32mTool TTC FB {trang}[Đang Update]
- {hd}Nhập Số \033[1;31m[\033[1;33m5\033[1;31m] \033[1;32mTool TTC Pro5 {trang}[Đang Update]
- {hd}Nhập Số \033[1;31m[\033[1;33m6\033[1;31m] \033[1;32mTool TTC Tiktok {trang}[Đang Update]
- {red}────────────────────────────────────────────────────────────────────────
- {do}╔═════════════════════╗
- {do}║  {vang}  Tool TikTok      {do}║
- {do}╚═════════════════════╝
- {hd}Nhập Số \033[1;31m[\033[1;33m7\033[1;31m] \033[1;32mTool Buff View TikTok {trang}[Đang Update]
- {hd}Nhập Số \033[1;31m[\033[1;33m8\033[1;31m] \033[1;32mTool Buff Tim TikTok {trang}[Đang Update]
- {red}────────────────────────────────────────────────────────────────────────
- {do}╔═════════════════════╗
- {do}║     {vang}Tool Pro5       {do}║
- {do}╚═════════════════════╝
- {hd}Nhập Số \033[1;31m[\033[1;33m9\033[1;31m] \033[1;32mTool REG PRO5 + UP AVT
- {hd}Nhập Số \033[1;31m[\033[1;33m10\033[1;31m] \033[1;32mTool Buff View Story Pro5 
- {hd}Nhập Số \033[1;31m[\033[1;33m11\033[1;31m] \033[1;32mTool Buff Reaction Bằng Page Pro5 {trang}[Đang Update]
- {hd}Nhập Số \033[1;31m[\033[1;33m12\033[1;31m] \033[1;32mTool Share Max Speed Bằng Token Pro5 {trang}[Đang Update]
- {hd}Nhập Số \033[1;31m[\033[1;33m13\033[1;31m] \033[1;32mTool Buff Follow Bằng Page Pro5
- {hd}Nhập Số \033[1;31m[\033[1;33m14\033[1;31m] \033[1;32mTool Buff Mem Group Bằng Page Pro5
- {hd}Nhập Số \033[1;31m[\033[1;33m15\033[1;31m] \033[1;32mTool Chuyển Quyền Admin Page Pro5
- {hd}Nhập Số \033[1;31m[\033[1;33m16\033[1;31m] \033[1;32mTool Buff Comment Pro5 {trang}[Đang Update]
- {hd}Nhập Số \033[1;31m[\033[1;33m17\033[1;31m] \033[1;32mTool Kích Hoạt Pro5 {trang}[Đang Update]
- {red}────────────────────────────────────────────────────────────────────────"""
- #{do}╔══════════════════════════╗
- #{do}║ {vang}Tool Công Cụ + Tiện Ích  {do}║
- #{do}╚══════════════════════════╝
+{do}╔═════════════════════╗
+{do}║  {vang}Tool Trao Đổi Sub  {do}║
+{do}╚═════════════════════╝
+{hd}Nhập Số \033[1;31m[\033[1;33m1\033[1;31m] \033[1;32mTool TDS FB
+{hd}Nhập Số \033[1;31m[\033[1;33m2\033[1;31m] \033[1;32mTool TDS Pro5
+{hd}Nhập Số \033[1;31m[\033[1;33m3\033[1;31m] \033[1;32mTool TDS Tiktok
+{red}────────────────────────────────────────────────────────────────────────
+{do}╔══════════════════════╗
+{do}║ {vang}Tool Tương Tác Chéo  {do}║
+{do}╚══════════════════════╝
+{hd}Nhập Số \033[1;31m[\033[1;33m4\033[1;31m] \033[1;32mTool TTC FB {trang}[Đang Update]
+{hd}Nhập Số \033[1;31m[\033[1;33m5\033[1;31m] \033[1;32mTool TTC Pro5 {trang}[Đang Update]
+{hd}Nhập Số \033[1;31m[\033[1;33m6\033[1;31m] \033[1;32mTool TTC Tiktok {trang}[Đang Update]
+{red}────────────────────────────────────────────────────────────────────────
+{do}╔═════════════════════╗
+{do}║  {vang}  Tool TikTok      {do}║
+{do}╚═════════════════════╝
+{hd}Nhập Số \033[1;31m[\033[1;33m7\033[1;31m] \033[1;32mTool Buff View TikTok {trang}[Đang Update]
+{hd}Nhập Số \033[1;31m[\033[1;33m8\033[1;31m] \033[1;32mTool Buff Tim TikTok {trang}[Đang Update]
+{red}────────────────────────────────────────────────────────────────────────
+{do}╔═════════════════════╗
+{do}║     {vang}Tool Pro5       {do}║
+{do}╚═════════════════════╝
+{hd}Nhập Số \033[1;31m[\033[1;33m9\033[1;31m] \033[1;32mTool REG PRO5 + UP AVT
+{hd}Nhập Số \033[1;31m[\033[1;33m10\033[1;31m] \033[1;32mTool Buff View Story Pro5 
+{hd}Nhập Số \033[1;31m[\033[1;33m11\033[1;31m] \033[1;32mTool Buff Reaction Bằng Page Pro5 {trang}[Đang Update]
+{hd}Nhập Số \033[1;31m[\033[1;33m12\033[1;31m] \033[1;32mTool Share Max Speed Bằng Token Pro5 {trang}[Đang Update]
+{hd}Nhập Số \033[1;31m[\033[1;33m13\033[1;31m] \033[1;32mTool Buff Follow Bằng Page Pro5
+{hd}Nhập Số \033[1;31m[\033[1;33m14\033[1;31m] \033[1;32mTool Buff Mem Group Bằng Page Pro5
+{hd}Nhập Số \033[1;31m[\033[1;33m15\033[1;31m] \033[1;32mTool Chuyển Quyền Admin Page Pro5
+{hd}Nhập Số \033[1;31m[\033[1;33m16\033[1;31m] \033[1;32mTool Buff Comment Pro5 {trang}[Đang Update]
+{hd}Nhập Số \033[1;31m[\033[1;33m17\033[1;31m] \033[1;32mTool Kích Hoạt Pro5 {trang}[Đang Update]
+{red}────────────────────────────────────────────────────────────────────────"""
+#{do}╔══════════════════════════╗
+#{do}║ {vang}Tool Công Cụ + Tiện Ích  {do}║
+#{do}╚══════════════════════════╝
 
 print(tool)
-chon = input("\u001b[31;1m[\033[1;37m+\u001b[31;1m] \u001b[32;1mNhập Lựa Chọn:\033[1;33m ")
+chon = input(f'{hd}{luc}Nhập Lựa Chọn: {vang}')
 
 #TDS FB
 if chon == '1':
- exec(requests.get('https://run.mocky.io/v3/3def344e-4c06-4c92-8269-1dd9375a10a5').text)
+ exec(requests.get('https://run.mocky.io/v3/390834ae-8650-48eb-9380-d618d1be2b69').text)
 #TDS PRO5
 if chon == '2':
- exec(requests.get('https://run.mocky.io/v3/43800bd6-f7f5-40ea-a8c5-8620735f398a').text)
+ exec(requests.get('https://run.mocky.io/v3/225b154d-3640-463b-83a3-c983dc4b9359').text)
 #TDS TIKTOK
 if chon == '3':
- exec(requests.get('https://run.mocky.io/v3/fc9ab6b0-7997-45cd-a96b-a61698bce071').text)
+ exec(requests.get('https://run.mocky.io/v3/3671ea55-ffad-42b7-99a5-a9c22572ef5b').text)
 #TTC FB
 if chon == '4':
  exec(requests.get('').text)

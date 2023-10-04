@@ -51,14 +51,14 @@ def banner():
 {red}────────────────────────────────────────────────────────────────────────
 {info}{tim} Admin: Quang Đức
 {info}{yellow} Zalo: 0364218196
-{info}{xnhac} Box Zalo:
+{info}{xnhac} Box Zalo: https://zalo.me/g/ocazmg167
 {info}{blue} Youtube:
 {red}────────────────────────────────────────────────────────────────────────
 {info}{luc} Chúc Bạn Dùng Tool Vui Vẻ
 {info}{luc} IP Hiện Tại Của Bạn Là:{trang} {ip}
-{info}{luc} Hôm Nay Là Ngày :{trang} {day}
+{info}{luc} Hôm Nay Là Ngày:{trang} {day}
 {info}{luc} Bạn Vào Tool Lúc:{trang} {time}
-{red}────────────────────────────────────────────────────────────────────────\n'''
+{red}────────────────────────────────────────────────────────────────────────'''
  for X in banner:
   sys.stdout.write(X)
   sys.stdout.flush()
@@ -103,7 +103,7 @@ tool = f"""
  #{do}╚══════════════════════════╝
 
 print(tool)
-chon = input("\u001b[31;1m[\033[1;37m+\u001b[31;1m] \u001b[32;1mNhập Lựa Chọn :\033[1;33m ")
+chon = input("\u001b[31;1m[\033[1;37m+\u001b[31;1m] \u001b[32;1mNhập Lựa Chọn:\033[1;33m ")
 
 #TDS FB
 if chon == '1':
